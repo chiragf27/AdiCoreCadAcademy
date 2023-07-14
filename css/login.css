@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: auto;
+}
+
+form {
+    background: transparent;
+    width: 200px;
+    height: 530px;
+    padding: 90px 200px;
+    position: absolute;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 45px;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textboxdiv {
+    border-bottom: 2px solid white;
+    position: relative;
+    margin: 35px 0;
+}
+
+.textboxdiv input {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+
+}
+
+button {
+    transition: 0.5s;
+    height: 25px;
+    width: 100%;
+    border: 2px solid white;
+    outline: none;
+    background: transparent;
+    background-size: 200%;
+    color: gray;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 2px;
+    border-radius: 15px;
+
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgb(0, 255, 255), 0 17px 50px 0 rgb(255, 255, 255);
+
+}
+
+.signup {
+    color: white;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.signup a {
+    color: white;
+}
+
+.backvideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9) {
+    .backvideo {
+        width: 100%;
+        height: auto;
+
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    .backvideo {
+        width: auto;
+        height: 100%;
+        ;
+
+    }
+}
+
+.title h1 {
+    text-align: right;
+    font-size: 160px;
+    color: white;
+    margin: 75px;
+    transition: 0.5s;
+}
+
+.title h1:hover {
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
